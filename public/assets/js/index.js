@@ -15,6 +15,11 @@ if (window.location.pathname === '/notes') {
   
 }
 
+function randomId() {
+  return Math.floor((1 + Math.random()) * 0x10000)
+  .toString(16)
+  .substring(1);
+}
 
 // Show an element
 const show = (elem) => {
@@ -75,6 +80,7 @@ const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,
     text: noteText.value,
+    id: randomId()
   };
   saveNote(newNote).then(() => {
     getAndRenderNotes();
@@ -89,12 +95,14 @@ const handleNoteDelete = (e) => {
 
   const note = e.target;
   const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
+  
 
   if (activeNote.id === noteId) {
     activeNote = {};
   }
 
   deleteNote(noteId).then(() => {
+    
     getAndRenderNotes();
     renderActiveNote();
   });
@@ -125,9 +133,9 @@ const handleRenderSaveBtn = () => {
 
 // Render the list of note titles
 const renderNoteList = async (notes) => {
-  
+ 
   let jsonNotes = await notes.json();
-  
+  console.log(jsonNotes);
   if (window.location.pathname === '/notes') {
     
     noteList.forEach((el) => (el.innerHTML = ''));

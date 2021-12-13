@@ -1,19 +1,62 @@
-# noteTaker
-This application will take down notes for you via input
+<p align="center">
+  <a href="https://github.com/BrandonConte/noteTaker" rel="">
+</p>
 
+<h3 align="center">Pro Note Taker</h3>
 
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+<div align="center">
 
-Acceptance Criteria above
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/BrandonConte/noteTaker.svg)](https://github.com/BrandonConte/noteTaker/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/BrandonConte/noteTaker.svg)](https://github.com/BrandonConte/noteTaker/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+</div>
+
+## <img src="Develop\public\assets\images\table-of-context.png" style="height: 40px">
+
+- [About](#about)
+- [Installing](#installing)
+- [Usage](#usage)
+- [Built With](#built_using)
+- [Authors](#authors)
+- [Questions](#questions)
+
+## <img id="about" src="Develop\public\assets\images\about.png" style="height: 40px">
+
+## <img id="installing" src="Develop\public\assets\images\installing.png" style="height: 40px">
+
+Once you have cloned the repo down from GitHub, you will want to run `npm install` in the command line to install all of the Node Modules needed to run the application.
+
+## <img id="usage" src="Develop\public\assets\images\usage.png" style="height: 40px">
+
+In order to run this program locally you will need to:
+
+1. Clone this repository to receive all the files.
+2. Run `npm install` in the terminal to download all the needed dependencies (makes sure you are in the correct file directory).
+3. Run `npm start` in the terminal to start a live server locally.
+4. Open your browser and connect to 'http://localhost:3001/' in the address bar.
+5. Click on the "Get Started" button to arrive at the note-taking interface.
+
+## <img id="built_using" src="Develop\public\assets\images\built-using.png" style="height: 40px">
+
+- JavaScript
+- Node.js
+- Express.js
+- HTML
+- CSS / Bootstrap
+
+## <img id="authors" src="Develop\public\assets\images\about.png" style="height: 40px">
+
+- [@BrandonConte](https://github.com/BrandonConte) - Backend functionality
+- See also the list of [contributors] (https://github.com/coding-boot-camp/miniature-eureka/graphs/contributors) who participated in this project.
+
+## <img id="questions" src="Develop\public\assets\images\questions.png" style="height: 40px">
+
+- Feel free to open an issue or contact me directly at contact@brandonconte.com if you have any questions about the repo. You can find more of my work at [BrandonConte](https://github.com/BrandonConte).
+
+## License
+
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Licensed under the [MIT](LICENSE.txt) license.
