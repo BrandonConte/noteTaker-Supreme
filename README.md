@@ -13,7 +13,7 @@
 
 </div>
 
-## <img src="Develop\public\assets\images\table-of-context.png" style="height: 40px">
+## <img src="./public/assets/images/table-of-context.png" style="height: 40px">
 
 - [About](#about)
 - [Installing](#installing)
@@ -22,13 +22,13 @@
 - [Authors](#authors)
 - [Questions](#questions)
 
-## <img id="about" src="Develop\public\assets\images\about.png" style="height: 40px">
+## <img id="about" src="./public/assets/images/about.png" style="height: 40px">
 
-## <img id="installing" src="Develop\public\assets\images\installing.png" style="height: 40px">
+## <img id="installing" src="./public/assets/images/installing.png" style="height: 40px">
 
 Once you have cloned the repo down from GitHub, you will want to run `npm install` in the command line to install all of the Node Modules needed to run the application.
 
-## <img id="usage" src="Develop\public\assets\images\usage.png" style="height: 40px">
+## <img id="usage" src="./public/assets/images/usage.png" style="height: 40px">
 
 In order to run this program locally you will need to:
 
@@ -38,7 +38,7 @@ In order to run this program locally you will need to:
 4. Open your browser and connect to 'http://localhost:3001/' in the address bar.
 5. Click on the "Get Started" button to arrive at the note-taking interface.
 
-## <img id="built_using" src="Develop\public\assets\images\built-using.png" style="height: 40px">
+## <img id="built_using" src="./public/assets/images/built-using.png" style="height: 40px">
 
 - JavaScript
 - Node.js
@@ -46,12 +46,12 @@ In order to run this program locally you will need to:
 - HTML
 - CSS / Bootstrap
 
-## <img id="authors" src="Develop\public\assets\images\about.png" style="height: 40px">
+## <img id="authors" src="./public/assets/images/about.png" style="height: 40px">
 
 - [@BrandonConte](https://github.com/BrandonConte) - Backend functionality
 - See also the list of [contributors] (https://github.com/coding-boot-camp/miniature-eureka/graphs/contributors) who participated in this project.
 
-## <img id="questions" src="Develop\public\assets\images\questions.png" style="height: 40px">
+## <img id="questions" src="./public/assets/images/questions.png" style="height: 40px">
 
 - Feel free to open an issue or contact me directly at contact@brandonconte.com if you have any questions about the repo. You can find more of my work at [BrandonConte](https://github.com/BrandonConte).
 
