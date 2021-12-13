@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/BrandonConte/noteTaker" rel="">
+  <a href="https://github.com/BrandonConte/noteTaker-Supreme" rel="">
 </p>
 
 <h3 align="center">Pro Note Taker</h3>
@@ -7,8 +7,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/BrandonConte/noteTaker.svg)](https://github.com/BrandonConte/noteTaker/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/BrandonConte/noteTaker.svg)](https://github.com/BrandonConte/noteTaker/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/BrandonConte/noteTaker-Supreme.svg)](https://github.com/BrandonConte/noteTaker/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/BrandonConte/noteTaker-Supreme.svg)](https://github.com/BrandonConte/noteTaker/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
